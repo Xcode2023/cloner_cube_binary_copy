@@ -8,5 +8,5 @@ app.load('../molang_3_d_copy (2).spline');
 
 
 console.log(typeof app);
-console.log(app);
-
+const {_data} =app
+console.log(_data);
