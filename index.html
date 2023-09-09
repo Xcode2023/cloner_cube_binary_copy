@@ -18,10 +18,21 @@
       .logo:hover {
         opacity: 0.8;
       }
+      .module {
+        animation: go 1s;
+      }
+      @keyframes go {
+        0% {
+          transform: translateY(50px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
     </style>
   </head>
   <body>
-    <canvas id="canvas3d"></canvas>
+    <canvas id="canvas3d" class="module"></canvas>
     <a class="logo" href="https://spline.design"></a>
     <!-- Import maps polyfill -->
     <!-- Remove this when import maps will be widely supported -->
